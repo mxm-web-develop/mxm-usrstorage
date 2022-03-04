@@ -1,7 +1,7 @@
 ### MxM User LocalStorage 用户信息，Token本地存储管理
 
 #### install
- `yarn add @mxm/usrstorage` or `npm i @mxm/usrstorage`
+ `yarn add mxm-usrstorage` or `npm i mxm-usrstorage`
 
 #### 版本信息
 - v.1.0.0 实现本地快速存储，更新用户信息，支持ts
