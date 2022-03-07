@@ -30,7 +30,7 @@ const getStore =<T> (storeName:string) =>{
 }
 
 /**设置app相关的数据 */
-const setStore =(data:USR<any>) =>{
+const setStore =<T>(data:USR<T>) =>{
     // const token = data.token
     const input = {
         app:data.app,
