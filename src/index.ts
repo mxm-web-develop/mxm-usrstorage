@@ -94,5 +94,13 @@ const setExpire = (expireInput:string)=>{
     }
 }
 
+const removeStore =(storeName:string)=>{
+    const store = getStore(storeName)
+    if(store){
+        localStorage.removeItem(storeName)
+        return true
+    }
+}
 
-export {setStore,getStore,updateUserInfo}
+
+export {setStore,getStore,updateUserInfo,removeStore}
